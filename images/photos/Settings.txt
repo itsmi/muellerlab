@@ -1,0 +1,5 @@
+Long side length: 800 px
+Quality: 75% / 9/12
+LuminarAI, Fast Fix filter
+
+Copyright: Open Sans, Font size 4, bottom right (no gap), white
