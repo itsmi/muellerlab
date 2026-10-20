@@ -137,345 +137,148 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
             
             <main id="main">
 
-                <!-- Slider -->
+                <style>
+                    #project-gallery .page-section {
+                        position: relative;
+                        overflow: hidden;
+                    }
+                    #project-gallery .project-video {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                        z-index: 0;
+                        pointer-events: none;
+                    }
+                    #project-gallery .page-section > .row {
+                        position: relative;
+                        z-index: 2;
+                    }
+                </style>
+                <!-- Slider: edit only the media list below to add projects. -->
                 <div class="container">
-                    <div class="fullwidth-gallery bg-dark">
-                        
-                        <!-- Slide Item -->
-                        <div class="page-section bg-scroll bg-dark-alfa-30" data-background="images/1.jpg">
-                                
-                                <!-- Slide Content -->
-                                <div class="row">
-                                    <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-1 col-md-5 col-md-offset-1">
-                                        
-                                        <div class="hs-line-8 no-transp font-alt mb-30 mb-xs-10">
-                                            Selected projects
-                                        </div>
-                                        
-                                        <h3 class="mb-40 mb-xs-30">
-                                            Multimaterial 3D printing of functional gradients
-                                        </h3>
-                                        
-                                    </div>
-                                </div>
-                                <!-- End Slide Content -->
-                                
-                        </div>
-                        <!-- End Slide Item -->
-                        
-                        <!-- Slide Item -->
-                        <div class="page-section bg-scroll bg-dark-alfa-30" data-background="images/mobile-video-placeholder.jpg" id="slide1">
-                                
-								<!-- Video BG Init -->
-								<div class="player" data-property="{videoURL:'https://youtu.be/zHqoKkFIF4U',containment:'#slide1',autoPlay:true, showControls:false, showYTLogo: false, mute:true, startAt:0, loop:1, opacity:1}">
-								</div>
-								 <!-- End Video BG Init -->
-								
-                                <!-- Slide Content -->
-                                <div class="row">
-                                    <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-1 col-md-5 col-md-offset-1">
-                                        
-                                        <div class="hs-line-8 no-transp font-alt mb-30 mb-xs-10">
-                                            Selected projects
-                                        </div>
-                                        
-                                        <h3 class="mb-40 mb-xs-30">
-                                            New 3D printer for printing multi-material robots
-                                        </h3>
-                                        
-                                    </div>
-                                </div>
-                                <!-- End Slide Content -->
-                                
-                        </div>
-                        <!-- End Slide Item -->
-                        
-                        <!-- Slide Item -->
-                        <div class="page-section bg-scroll bg-dark-alfa-30" data-background="images/2.jpg">
-                                
-                                <!-- Slide Content -->
-                                <div class="row">
-                                    <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-1 col-md-5 col-md-offset-1">
-                                        
-                                        <div class="hs-line-8 no-transp font-alt mb-30 mb-xs-10">
-                                            Selected projects
-                                        </div>
-                                        
-                                        <h3 class="mb-40 mb-xs-30">
-                                            Lightweight lattices with enhanced stiffness, strength, and toughness
-                                        </h3>
-                                        
-                                    </div>
-                                </div>
-                                <!-- End Slide Content -->
-                                
-                        </div>
-                        <!-- End Slide Item -->
-                        
-                        <!-- Slide Item -->
-                        <div class="page-section bg-scroll bg-dark-alfa-30" data-background="images/mobile-video-placeholder.jpg" id="slide2">
-                                
-								<!-- Video BG Init -->
-								<div class="player" data-property="{videoURL:'https://youtu.be/AaYiKyY2PAo',containment:'#slide2',autoPlay:true, showControls:false, showYTLogo: false, mute:true, startAt:0, loop:1, opacity:1}">
-								</div>
-								 <!-- End Video BG Init -->
-								
-                                <!-- Slide Content -->
-                                <div class="row">
-                                    <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-1 col-md-5 col-md-offset-1">
-                                        
-                                        <div class="hs-line-8 no-transp font-alt mb-30 mb-xs-10">
-                                            Selected projects
-                                        </div>
-                                        
-                                        <h3 class="mb-40 mb-xs-30">
-                                            Multimaterial switching in multinozzle printheads
-                                        </h3>
-                                        
-                                    </div>
-                                </div>
-                                <!-- End Slide Content -->
-                                
-                        </div>
-                        <!-- End Slide Item -->
-                        
-                        <!-- Slide Item -->
-                        <div class="page-section bg-scroll bg-dark-alfa-30" data-background="images/mobile-video-placeholder.jpg" id="slide3">
-                                
-								<!-- Video BG Init -->
-								<div class="player" data-property="{videoURL:'https://youtu.be/PXxX8tW0Kyk',containment:'#slide3',autoPlay:true, showControls:false, showYTLogo: false, mute:true, startAt:0, loop:1, opacity:1}">
-								</div>
-								 <!-- End Video BG Init -->
-								
-                                <!-- Slide Content -->
-                                <div class="row">
-                                    <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-1 col-md-5 col-md-offset-1">
-                                        
-                                        <div class="hs-line-8 no-transp font-alt mb-30 mb-xs-10">
-                                            Selected projects
-                                        </div>
-                                        
-                                        <h3 class="mb-40 mb-xs-30">
-                                            Complex print-path design for multimaterial 3D printing
-                                        </h3>
-                                        
-                                    </div>
-                                </div>
-                                <!-- End Slide Content -->
-                                
-                        </div>
-                        <!-- End Slide Item -->
-                        
-                        <!-- Slide Item -->
-                        <div class="page-section bg-scroll bg-dark-alfa-30" data-background="images/mobile-video-placeholder.jpg" id="slide4">
-                                
-								<!-- Video BG Init -->
-								<div class="player" data-property="{videoURL:'https://youtu.be/NCKRvCqtXKc',containment:'#slide4',autoPlay:true, showControls:false, showYTLogo: false, mute:true, startAt:0, loop:1, opacity:1}">
-								</div>
-								 <!-- End Video BG Init -->
-								
-                                <!-- Slide Content -->
-                                <div class="row">
-                                    <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-1 col-md-5 col-md-offset-1">
-                                        
-                                        <div class="hs-line-8 no-transp font-alt mb-30 mb-xs-10">
-                                            Selected projects
-                                        </div>
-                                        
-                                        <h3 class="mb-40 mb-xs-30">
-                                            High-frequency switching in advanced printheads
-                                        </h3>
-                                        
-                                    </div>
-                                </div>
-                                <!-- End Slide Content -->
-                                
-                        </div>
-                        <!-- End Slide Item -->
-                        
-                        <!-- Slide Item -->
-                        <div class="page-section bg-scroll bg-dark-alfa-30" data-background="images/mobile-video-placeholder.jpg" id="slide5">
-                                
-								<!-- Video BG Init -->
-								<div class="player" data-property="{videoURL:'https://youtu.be/vKVxa3Wgy6c',containment:'#slide5',autoPlay:true, showControls:false, showYTLogo: false, mute:true, startAt:0, loop:1, opacity:1}">
-								</div>
-								 <!-- End Video BG Init -->
-								
-                                <!-- Slide Content -->
-                                <div class="row">
-                                    <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-1 col-md-5 col-md-offset-1">
-                                        
-                                        <div class="hs-line-8 no-transp font-alt mb-30 mb-xs-10">
-                                            Selected projects
-                                        </div>
-                                        
-                                        <h3 class="mb-40 mb-xs-30">
-                                            Origami and kirigami structures fabricated via multimaterial 3D printing
-                                        </h3>
-                                        
-                                    </div>
-                                </div>
-                                <!-- End Slide Content -->
-                                
-                        </div>
-                        <!-- End Slide Item -->
-                        
-                        <!-- Slide Item -->
-                        <div class="page-section bg-scroll bg-dark-alfa-30" data-background="images/3.jpg">
-                                
-                                <!-- Slide Content -->
-                                <div class="row">
-                                    <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-1 col-md-5 col-md-offset-1">
-                                        
-                                        <div class="hs-line-8 no-transp font-alt mb-30 mb-xs-10">
-                                            <mark style="background-color: black; color: white;">Selected projects</mark>
-                                        </div>
-                                        
-                                        <h3 class="mb-40 mb-xs-30">
-											<mark style="background-color: black; color: white;">Controling transition waves in mechanical metamaterials</mark>
-                                        </h3>
-                                        
-                                    </div>
-                                </div>
-                                <!-- End Slide Content -->
-                                
-                        </div>
-                        <!-- End Slide Item -->
-                        
-                        <!-- Slide Item -->
-                        <div class="page-section bg-scroll bg-dark-alfa-30" data-background="images/4.jpg">
-                                
-                                <!-- Slide Content -->
-                                <div class="row">
-                                    <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-1 col-md-5 col-md-offset-1">
-                                        
-                                        <div class="hs-line-8 no-transp font-alt mb-30 mb-xs-10">
-                                            Selected projects
-                                        </div>
-                                        
-                                        <h3 class="mb-40 mb-xs-30">
-                                            Discrete and continuous gradients in 3D-printed composite materials
-                                        </h3>
-                                        
-                                    </div>
-                                </div>
-                                <!-- End Slide Content -->
-                                
-                        </div>
-                        <!-- End Slide Item -->
-                        
-                        <!-- Slide Item -->
-                        <div class="page-section bg-scroll bg-dark-alfa-30" data-background="images/6.jpg">
-                                
-                                <!-- Slide Content -->
-                                <div class="row">
-                                    <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-1 col-md-5 col-md-offset-1">
-                                        
-                                        <div class="hs-line-8 no-transp font-alt mb-30 mb-xs-10">
-                                            Selected projects
-                                        </div>
-                                        
-                                        <h3 class="mb-40 mb-xs-30">
-                                            Discrete and continuous gradients in 3D-printed composite materials
-                                        </h3>
-                                        
-                                    </div>
-                                </div>
-                                <!-- End Slide Content -->
-                                
-                        </div>
-                        <!-- End Slide Item -->
-                        
-                        <!-- Slide Item -->
-                        <div class="page-section bg-scroll bg-dark-alfa-30" data-background="images/7.jpg">
-                                
-                                <!-- Slide Content -->
-                                <div class="row">
-                                    <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-1 col-md-5 col-md-offset-1">
-                                        
-                                        <div class="hs-line-8 no-transp font-alt mb-30 mb-xs-10">
-                                            Selected projects
-                                        </div>
-                                        
-                                        <h3 class="mb-40 mb-xs-30">
-                                            Enhancing fracture toughness via computational design
-                                        </h3>
-                                        
-                                    </div>
-                                </div>
-                                <!-- End Slide Content -->
-                                
-                        </div>
-                        <!-- End Slide Item -->
-                        
-                        <!-- Slide Item -->
-                        <div class="page-section bg-scroll bg-dark-alfa-30" data-background="images/8.jpg">
-                                
-                                <!-- Slide Content -->
-                                <div class="row">
-                                    <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-1 col-md-5 col-md-offset-1">
-                                        
-                                        <div class="hs-line-8 no-transp font-alt mb-30 mb-xs-10">
-                                            Selected projects
-                                        </div>
-                                        
-                                        <h3 class="mb-40 mb-xs-30">
-                                            Bistable mechanical metamaterials for guided wave propagation
-                                        </h3>
-                                        
-                                    </div>
-                                </div>
-                                <!-- End Slide Content -->
-                                
-                        </div>
-                        <!-- End Slide Item -->
-                        
-                        <!-- Slide Item -->
-                        <div class="page-section bg-scroll bg-dark-alfa-30" data-background="images/9.jpg">
-                                
-                                <!-- Slide Content -->
-                                <div class="row">
-                                    <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-1 col-md-5 col-md-offset-1">
-                                        
-                                        <div class="hs-line-8 no-transp font-alt mb-30 mb-xs-10">
-                                            <mark style="background-color: black; color: white;">Selected projects</mark>
-                                        </div>
-                                        
-                                        <h3 class="mb-40 mb-xs-30">
-                                            <mark style="background-color: black; color: white;">Multimaterial multinozzle 3D printing (MM3D)</mark>
-                                        </h3>
-                                        
-                                    </div>
-                                </div>
-                                <!-- End Slide Content -->
-                                
-                        </div>
-                        <!-- End Slide Item -->
-                        
-                        <!-- Slide Item -->
-                        <div class="page-section bg-scroll bg-dark-alfa-30" data-background="images/10.jpg">
-                                
-                                <!-- Slide Content -->
-                                <div class="row">
-                                    <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-1 col-md-5 col-md-offset-1">
-                                        
-                                        <div class="hs-line-8 no-transp font-alt mb-30 mb-xs-10">
-                                            Selected projects
-                                        </div>
-                                        
-                                        <h3 class="mb-40 mb-xs-30">
-                                            Mechanical properties of interfaces in 3D printed parts
-                                        </h3>
-                                        
-                                    </div>
-                                </div>
-                                <!-- End Slide Content -->
-                                
-                        </div>
-                        <!-- End Slide Item -->
-                    
-                    </div>
+                    <div class="fullwidth-gallery bg-dark" id="project-gallery"></div>
                 </div>
+                <script>
+                (function () {
+                    "use strict";
+
+                    // Paths are relative to index.html. Move slideshow images here.
+                    var imageFolder = "images/home/";
+                    var videoPlaceholder = imageFolder + "mobile-video-placeholder.jpg";
+
+                    // Each entry: [image filename, MP4 filename, OR YouTube URL, description].
+                    var media = [
+                        ["1.jpg", "Multimaterial 3D printing of functional gradients"],
+                        ["2.jpg", "Lightweight lattices with enhanced stiffness, strength, and toughness"],
+                        ["3.jpg", "Controling transition waves in mechanical metamaterials"],
+                        ["4.jpg", "Discrete and continuous gradients in 3D-printed composite materials"],
+                        ["6.jpg", "Discrete and continuous gradients in 3D-printed composite materials"],
+                        ["7.jpg", "Enhancing fracture toughness via computational design"],
+                        ["8.jpg", "Bistable mechanical metamaterials for guided wave propagation"],
+                        ["9.jpg", "Multimaterial multinozzle 3D printing (MM3D)"],
+                        ["10.jpg", "Mechanical properties of interfaces in 3D printed parts"],
+                        ["11.jpg", "Multimaterial Lattices with Adaptive Properties"],
+                        ["12.jpg", "3D Printing of Quantum Dot Materials"],
+                        ["13.jpg", "3D Printing of Quantum Dot Materials"],
+                        ["Beaker_walking.mp4", "New 3D printer for printing multi-material robots"],
+                        ["Multinozzle_switching.mp4", "Multimaterial switching in multinozzle printheads"],
+                        ["Aztec_printing.mp4", "Complex print-path design for multimaterial 3D printing"],
+                        ["Nozzle_switching.mp4", "High-frequency switching in advanced printheads"],
+                        ["Origami_folding.mp4", "Origami and kirigami structures fabricated via multimaterial 3D printing"],
+                    ];
+
+                    // Keep the original black caption backgrounds on these images.
+                    var highlightedImages = ["3.jpg", "9.jpg"];
+
+                    // Fisher-Yates shuffle: each project appears once per cycle.
+                    // Reloading the page produces a new order; later cycles reuse it.
+                    for (var i = media.length - 1; i > 0; i--) {
+                        var j = Math.floor(Math.random() * (i + 1));
+                        var temporary = media[i];
+                        media[i] = media[j];
+                        media[j] = temporary;
+                    }
+
+                    var gallery = document.getElementById("project-gallery");
+                    var fragment = document.createDocumentFragment();
+
+                    media.forEach(function (item, index) {
+                        var source = item[0];
+                        var isVideo = /^https?:\/\/(?:www\.|m\.)?(?:youtu\.be|youtube\.com)\//i.test(source);
+                        var isLocalVideo = /\.mp4(?:[?#].*)?$/i.test(source);
+                        var slide = document.createElement("div");
+                        slide.className = "page-section bg-scroll bg-dark-alfa-30";
+                        slide.id = "project-slide-" + index;
+                        slide.setAttribute("data-background", (isVideo || isLocalVideo) ? videoPlaceholder : imageFolder + source);
+
+                        if (isLocalVideo) {
+                            var video = document.createElement("video");
+                            video.className = "project-video";
+                            video.muted = true;
+                            video.defaultMuted = true;
+                            video.loop = true;
+                            video.setAttribute("muted", "");
+                            video.setAttribute("playsinline", "");
+                            video.setAttribute("preload", "none");
+                            video.setAttribute("poster", videoPlaceholder);
+                            // Set src only when this video first becomes visible.
+                            video.setAttribute("data-src", imageFolder + source);
+                            slide.appendChild(video);
+                        } else if (isVideo) {
+                            var player = document.createElement("div");
+                            player.className = "player";
+                            player.setAttribute("data-property", JSON.stringify({
+                                videoURL: source,
+                                containment: "#" + slide.id,
+                                autoPlay: true,
+                                showControls: false,
+                                showYTLogo: false,
+                                mute: true,
+                                startAt: 0,
+                                loop: 1,
+                                opacity: 1
+                            }));
+                            slide.appendChild(player);
+                        }
+
+                        var row = document.createElement("div");
+                        row.className = "row";
+                        var column = document.createElement("div");
+                        column.className = "col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-1 col-md-5 col-md-offset-1";
+                        var label = document.createElement("div");
+                        label.className = "hs-line-8 no-transp font-alt mb-30 mb-xs-10";
+                        var title = document.createElement("h3");
+                        title.className = "mb-40 mb-xs-30";
+
+                        function setCaption(element, text) {
+                            if (highlightedImages.indexOf(source) !== -1) {
+                                var mark = document.createElement("mark");
+                                mark.style.backgroundColor = "black";
+                                mark.style.color = "white";
+                                mark.textContent = text;
+                                element.appendChild(mark);
+                            } else {
+                                element.textContent = text;
+                            }
+                        }
+
+                        setCaption(label, "Selected projects");
+                        setCaption(title, item[1]);
+                        column.appendChild(label);
+                        column.appendChild(title);
+                        row.appendChild(column);
+                        slide.appendChild(row);
+                        fragment.appendChild(slide);
+                    });
+
+                    // Build synchronously, before js/all.js initializes the slider
+                    // and the existing YouTube background player setup runs.
+                    gallery.appendChild(fragment);
+                }());
+                </script>
                 <!-- End Slider -->
                 
                 
@@ -535,6 +338,7 @@ We welcome new collaborators and motivated individuals at all levels to join our
 									Baltimore, MD 21218<br>
 									United States<br>
 									<br>
+									Phone: (410) 516-8680<br>
 									E-Mail: <a class="fm-social-links" target="_blank" href='mailto:jochen@jhu.edu'>jochen@jhu.edu</a><br>
 									Web: <a class="fm-social-links" target="_blank" href='http://muellerlab.com'>www.muellerlab.com</a><br>
 									
@@ -644,6 +448,43 @@ We welcome new collaborators and motivated individuals at all levels to join our
         <script type="text/javascript" src="js/contact-form.js"></script>
         <script type="text/javascript" src="js/jquery.ajaxchimp.min.js"></script>      
         <script type="text/javascript" src="js/jquery.mb.YTPlayer.js"></script>      
+        <script>
+        // Wait until the existing carousel has initialized before observing videos.
+        window.addEventListener("load", function () {
+            var videos = document.querySelectorAll("#project-gallery .project-video");
+
+            function updatePlayback(video) {
+                if (video.slideVisible && !document.hidden) {
+                    if (!video.hasAttribute("src")) {
+                        video.setAttribute("src", video.getAttribute("data-src"));
+                    }
+                    var playback = video.play();
+                    if (playback && playback.catch) {
+                        // Browser settings may prevent autoplay; retain the poster.
+                        playback.catch(function () {});
+                    }
+                } else {
+                    video.pause();
+                }
+            }
+
+            if ("IntersectionObserver" in window) {
+                // The carousel's clipping and the browser viewport both count.
+                var observer = new IntersectionObserver(function (entries) {
+                    entries.forEach(function (entry) {
+                        entry.target.slideVisible = entry.isIntersecting && entry.intersectionRatio > 0.5;
+                        updatePlayback(entry.target);
+                    });
+                }, { threshold: [0, 0.5, 0.51, 1] });
+
+                videos.forEach(function (video) { observer.observe(video); });
+                document.addEventListener("visibilitychange", function () {
+                    videos.forEach(updatePlayback);
+                });
+            }
+            // Browsers without IntersectionObserver retain the fallback image.
+        });
+        </script>
         <!--[if lt IE 10]><script type="text/javascript" src="js/placeholder.js"></script><![endif]-->
         
     </body>
